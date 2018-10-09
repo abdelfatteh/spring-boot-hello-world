@@ -8,9 +8,11 @@ import org.springframework.context.annotation.Configuration;
 /**
  * Created by XTL on 8/14/2014.
  */
-@Configuration
-@ComponentScan
-@EnableAutoConfiguration
+
+/**
+ * Actually the @SpringBootApplication annotation is equivalent to using @Configuration, @EnableAutoConfiguration and @ComponentScan with their default attributes..
+ */
+@SpringBootApplication
 public class Application {
 
     public static void main(String[] args) {
